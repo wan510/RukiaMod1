@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import basemod.abstracts.CustomCard;
 
+import static rukiamod.characters.MyCharacter.PlayerColorEnum.RUKIA_BLEACH;
 
 
 public class Strike extends CustomCard {
@@ -20,7 +21,7 @@ public class Strike extends CustomCard {
     private static final int COST = 1;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
     public static final CardType TYPE = CardType.ATTACK;
-    private static final CardColor COLOR = CardColor.COLORLESS;
+    private static final CardColor COLOR = RUKIA_BLEACH;
     public static final CardRarity RARITY = CardRarity.BASIC;
     public static final CardTarget TARGET = CardTarget.ENEMY;
 
