@@ -1,0 +1,17 @@
+{
+  "RukiaMod:Agent": {
+    "NAME": "代理死神证",
+    "FLAVOR": "散发着来自尸魂界的灵压",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b1 层灵压。"
+    ]
+  },
+  "RukiaMod:Shirayuki": {
+  "NAME": "袖白雪",
+    "FLAVOR": "露琪亚的斩魄刀",
+    "DESCRIPTIONS": [
+      "战斗开始时，给予随机敌人 #b1 层冻伤"
+    ]
+}
+
+}

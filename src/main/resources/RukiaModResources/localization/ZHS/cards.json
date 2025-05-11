@@ -2,5 +2,25 @@
   "RukiaMod:Strike": {
     "NAME": "打击",
     "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "RukiaMod:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点格挡。"
+  },
+
+  "RukiaMod:ReiryokuGather": {
+    "NAME": "灵压聚集",
+    "DESCRIPTION": "获得 1 点灵压（不会超过3点）。 NL 所有单位获得3点格挡。",
+    "UPGRADE_DESCRIPTION": "获得 1 点灵压（不会超过3点）。 NL 所有单位获得3点格挡。 NL rukiamod:灵压 3 NL 抽1张牌。"
+  },
+  "RukiaMod:KickIchigo": {
+    "NAME": "脚踢一护",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:灵压 2 NL 给予敌人 2 层易伤。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:灵压 2 NL 给予敌人 3 层易伤。"
+  },
+  "RukiaMod:IceBreak": {
+    "NAME": "冰之破裂",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:破冰 3 NL rukiamod:灵压 3 NL 给予目标3点格挡",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:破冰 3 NL rukiamod:灵压 3 NL 给予目标3点格挡"
   }
 }

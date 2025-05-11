@@ -16,10 +16,12 @@ import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
-import com.megacrit.cardcrawl.relics.HandDrill;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import rukiamod.RukiaMod;
+import rukiamod.cards.Defend;
 import rukiamod.cards.Strike;
+import rukiamod.relics.Agent;
+import rukiamod.relics.Shirayuki;
 
 
 import java.util.ArrayList;
@@ -86,14 +88,18 @@ public class MyCharacter extends CustomPlayer {
         for(int x = 0; x<5; x++) {
             retVal.add(Strike.ID);
         }
-        retVal.add("RukiaMod:Strike");
+        for(int x = 0; x<5; x++) {
+            retVal.add(Defend.ID);
+        }
+        retVal.add("RukiaMod:ReiryokuGather");
+        retVal.add("RukiaMod:KickIchigo");
         return retVal;
     }
 
     // 初始遗物的ID，可以先写个原版遗物凑数
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(HandDrill.ID);
+        retVal.add(Shirayuki.ID);
         return retVal;
     }
 
@@ -161,9 +167,9 @@ public class MyCharacter extends CustomPlayer {
     public ArrayList<CutscenePanel> getCutscenePanels() {
         ArrayList<CutscenePanel> panels = new ArrayList<>();
         // 有两个参数的，第二个参数表示出现图片时播放的音效
-        panels.add(new CutscenePanel("ExampleModResources/img/char/Victory1.png", "ATTACK_MAGIC_FAST_1"));
-        panels.add(new CutscenePanel("ExampleModResources/img/char/Victory2.png"));
-        panels.add(new CutscenePanel("ExampleModResources/img/char/Victory3.png"));
+        panels.add(new CutscenePanel("RukiaModResources/img/char/Victory1.png", "ATTACK_MAGIC_FAST_1"));
+        panels.add(new CutscenePanel("RukiaModResources/img/char/Victory2.png"));
+        panels.add(new CutscenePanel("RukiaModResources/img/char/Victory3.png"));
         return panels;
     }
 
@@ -188,7 +194,7 @@ public class MyCharacter extends CustomPlayer {
     // 第三章面对心脏说的话（例如战士是“你握紧了你的长刀……”之类的）
     @Override
     public String getSpireHeartText() {
-        return "你手中的袖白雪开始颤抖...";
+        return "手中的斩魄刀开始颤抖...";
     }
 
     // 打心脏的颜色，不是很明显

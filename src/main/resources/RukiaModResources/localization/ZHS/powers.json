@@ -1,0 +1,16 @@
+{
+  "RukiaMod:SpiritualPower": {
+    "NAME": "灵压",
+    "DESCRIPTIONS": [
+      "当前灵压：",
+      " 点。"
+    ]
+  },
+  "RukiaMod:FrostbitePower": {
+    "NAME": "冻伤",
+    "DESCRIPTIONS": [
+      "获得来自露琪亚的格挡时，失去 #b ",
+      " 点生命。"
+    ]
+  }
+}
