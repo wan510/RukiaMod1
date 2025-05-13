@@ -20,7 +20,7 @@
   },
   "RukiaMod:IceBreak": {
     "NAME": "冰之破裂",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:破冰 3 NL rukiamod:灵压 3 NL 给予目标3点格挡",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:破冰 3 NL rukiamod:灵压 3 NL 给予目标3点格挡"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:破冰 给予1层冻伤 NL rukiamod:灵压 3 NL 给予目标3点格挡",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL rukiamod:破冰 给予1层冻伤 NL rukiamod:灵压 3 NL 给予目标3点格挡"
   }
 }
